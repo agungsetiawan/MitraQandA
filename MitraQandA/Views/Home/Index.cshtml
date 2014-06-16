@@ -1,0 +1,15 @@
+﻿@model List<MitraQandA.Models.Role>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>Moshi Moshi</p>
+
+@foreach(var item in Model)
+{
+   <div>
+       @Html.DisplayFor(modelItem => item.Name)
+   </div> 
+}
