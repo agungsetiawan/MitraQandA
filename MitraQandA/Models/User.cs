@@ -14,8 +14,9 @@ namespace MitraQandA.Models
         public string Password { get; set; }
         public string Email { get; set; }
         public bool IsActive { get; set; }
+        public bool IsOnline { get; set; }
         public virtual List<Role> Roles { get; set; }
         public virtual List<Question> Questions { get; set; }
-        public virtual List<Answer> Answer { get; set; }
+        public virtual List<Answer> Answers { get; set; }
     }
 }

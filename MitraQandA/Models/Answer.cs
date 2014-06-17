@@ -9,8 +9,7 @@ namespace MitraQandA.Models
     {
         public int AnswerId { get; set; }
         public string Content { get; set; }
-        public int point { get; set; }
-
+        public int Point { get; set; }
         public int QuestionId { get; set; }
         public virtual Question Question { get; set; }
         public int UserId { get; set; }
